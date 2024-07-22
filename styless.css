@@ -1,0 +1,112 @@
+/* General styles for headings */
+h1, h2, h3, h4, h5, h6 {
+    color: #007bff; /* Blue color */
+  }
+  
+  /* Smooth color transition on hover */
+  h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover {
+    color: #0056b3; /* Darker blue color on hover */
+    transition: color 0.3s ease; /* Smooth color transition */
+  }
+  
+  /* Portfolio Section */
+  #portfolio {
+    background-color: #000; /* Black background */
+    color: #f5f5f5; /* Smoke white text color */
+    padding: 3rem 0; /* Padding around the section */
+  }
+  
+  .card {
+    background-color: #ffffff; /* White background for card */
+    border: 1px solid #ddd; /* Light border around card */
+    border-radius: 5px; /* Rounded corners for card */
+    padding: 2rem; /* Padding inside the card */
+    margin-bottom: 2rem; /* Space below each card */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+  }
+  
+  .card img {
+    max-width: 100%; /* Ensure image fits within the card */
+    height: auto; /* Maintain aspect ratio of image */
+    margin-bottom: 1rem; /* Space below the image */
+  }
+  
+  .card-title {
+    font-size: 1.5rem; /* Larger font for card title */
+    margin-bottom: 1rem; /* Space below the title */
+    font-weight: bold; /* Bold text for title */
+  }
+  
+  .card-text {
+    font-size: 1rem; /* Standard font size for card text */
+    margin-bottom: 1.5rem; /* Space below the text */
+  }
+  
+  .btn-primary {
+    background-color: #007bff; /* Blue button background */
+    border-color: #007bff; /* Blue button border */
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    border-color: #0056b3; /* Darker blue border on hover */
+  }
+  
+  /* Contact Section */
+  #contact a {
+    color: #007bff; /* Blue color for links */
+    text-decoration: none; /* Remove underline from links */
+  }
+  
+  #contact a:hover {
+    color: #0056b3; /* Darker blue on hover */
+    text-decoration: underline; /* Underline on hover */
+  }
+  
+  /* Skills Section */
+  .skill-bar {
+    margin-bottom: 1.5rem;
+  }
+  
+  .skill-label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .progress {
+    height: 1.5rem;
+    background-color: #e9ecef;
+    border-radius: 0.25rem;
+    overflow: hidden;
+  }
+  
+  .progress-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  /* Back to top button */
+  #back-to-top {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+  }
+  
+  #back-to-top:hover {
+    background-color: #0056b3;
+  }
+  
